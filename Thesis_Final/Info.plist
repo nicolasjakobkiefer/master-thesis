@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CADisableMinimumFrameDuration</key>
+    <false />
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>Thesis</string>
+    <key>CFBundleExecutable</key>
+    <string>${EXECUTABLE_NAME}</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.Company.${PRODUCT_NAME}</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>${PRODUCT_NAME}</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>0.1</string>
+    <key>CFBundleVersion</key>
+    <string>0</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true />
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true />
+    </dict>
+    <key>NSCameraUsageDescription</key>
+    <string>Vuforia Engine requires the iOS CameraUsageDescription to be set. Please set a camera description in the Player Settings like the following: Camera access required for target detection and tracking Vuforia Engine requires a minimum iOS version of 9.0. Please set the Target minimum iOS Version to 9.0 or above in the Player Settings. </string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>AR</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>AR</string>
+    <key>UIApplicationExitsOnSuspend</key>
+    <false />
+    <key>UIPrerenderedIcon</key>
+    <false />
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>armv7</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <true />
+    <key>UIRequiresPersistentWiFi</key>
+    <false />
+    <key>UIStatusBarHidden</key>
+    <true />
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleDefault</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>Unity_LoadingActivityIndicatorStyle</key>
+    <integer>-1</integer>
+    <key>UnityCloudProjectID</key>
+    <string></string>
+    <key>UnityCrashSubmissionURL</key>
+    <string>https://a:b@perf-events.cloud.unity3d.com/symbolicate</string>
+  </dict>
+</plist>
